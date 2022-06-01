@@ -10,11 +10,16 @@
         <script src="script.js"></script>
 
         <div class="container">
-            <div clas="controls">
-                <label for="fontSize"></label>
-                <input name="fontSize" type="number">
-                <label for="fontColor"></label>
-                <input name="fontColor" type="text">
+            <h1>Czytanie z pogrubieniem</h1>
+            <div class="controls">
+                <div>
+                    <label for="fontSize">Rozmiar czcionki</label>
+                    <input type="range" id="fontSize" name="fontSize" value="20" min="15" max="35" onchange="inputChanged()">
+                </div>
+                <div>
+                    <label for="fontColor">Kolor czcionki</label>
+                    <input id="fontColor" name="fontColor" type="color" value="#000000" onchange="inputChanged()">
+                </div>
             </div>
             <textarea id="input" onchange="inputChanged()">Wpisz tutaj tekst, który ma być wyświetlony z pogrubieniem</textarea>
             <div class="output" id="output">
