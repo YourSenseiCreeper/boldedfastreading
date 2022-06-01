@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20pt;
+    margin: 0px;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea#input {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20pt;
+    margin-bottom: 5rem;
+    resize: vertical;
+}
+
+.output {
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+}
+
+.bold {
+    font-weight: 900;
+    /* color: blueviolet; */
+}
