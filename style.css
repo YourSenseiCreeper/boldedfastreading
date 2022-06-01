@@ -30,6 +30,7 @@ textarea {
     padding: 15px;
 }
 
+
 textarea::-webkit-scrollbar {
     width: 15px;
 }
@@ -66,6 +67,7 @@ textarea::-webkit-scrollbar-thumb:hover {
 }
 
 @media (max-width: 800px) {
+
     textarea#input {
         height: 45vh !important;
     }
