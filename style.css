@@ -30,21 +30,17 @@ textarea {
     padding: 15px;
 }
 
-
 textarea::-webkit-scrollbar {
     width: 15px;
 }
-
 
 textarea::-webkit-scrollbar-thumb {
     background: #888;
 }
 
-
 textarea::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
-
 
 .output {
     border: none;
